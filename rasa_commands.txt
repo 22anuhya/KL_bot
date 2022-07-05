@@ -1,0 +1,10 @@
+rasa init(to initialize/create new env)
+code .(to open code in vsc)
+rasa shell(this starts the bot)
+/stop(to stop)
+rasa shell nlu(for intent rankings)
+ctrl+c to exit shell
+rasa run actions (to execute and run action.py)
+rasa train	Trains a model using your NLU data and stories, saves trained model in ./models.
+rasa visualize	Generates a visual representation of your stories.
+rasa -h	Shows all available commands.

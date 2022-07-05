@@ -1,0 +1,45 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - institution_info
+  - branch_list
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://c.tenor.com/X7H1uY9D4M8AAAAC/cheer-up-be-happy.gif"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_continue:
+  - text: "Anything else?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot for KLUniversity having voice instructions available, powered by Rasa."
+
+  utter_info:
+  - text: "We are Koneru Lakshmaih Educational Foundation having 521 faculty with PHD, 100Acre of campus, 253 Labs and research labs, 12043 research publications.We have more than 10000 students joining our family every year...grab your seats fast to be one of them!!!"
+
+  utter_branchlist:
+  - text: "We have KL college of engineering,sciences,architecture,Management,Fine arts,Commerce,Pharmacy,Law,Agriculture"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
